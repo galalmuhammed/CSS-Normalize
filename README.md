@@ -1,0 +1,9 @@
+- The `box-sizing` property was adjusted by applying `border-box` to the `body` for consistent element sizing.  
+- Default browser margins and paddings were reset for the `body` to create a clean slate for layout styling.  
+- Button and input elements received appearance fixes to ensure a uniform look across different browsers, including standardizing the `appearance` property and removing inconsistent text transformations.  
+- Font inheritance was refined for form controls like `button`, `input`, `optgroup`, `select`, and `textarea` to ensure typography consistency.  
+- Hyperlink styling was improved by removing the default gray background on active links in older versions of Internet Explorer.  
+- Typography adjustments included standardizing the `line-height` of the `html` element and refining the font size and spacing of `h1` headings.  
+- Form elements such as text areas, checkboxes, and radio buttons were corrected with `overflow` and `box-sizing` fixes to enhance usability.  
+- Interactive elements like `details` and `summary` were adjusted to display properly across browsers.  
+- Additional improvements included defining `template` and `[hidden]` elements to ensure consistent behavior across different environments.
