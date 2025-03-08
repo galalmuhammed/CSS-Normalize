@@ -1,4 +1,4 @@
-#Here are the key changes:
+# Here are the key changes:
 
 - **Global Adjustments:**  
   - Applied `box-sizing: border-box;` to all elements for consistent sizing.  
