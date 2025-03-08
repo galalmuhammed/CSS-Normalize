@@ -1,9 +1,45 @@
-- The `box-sizing` property was adjusted by applying `border-box` to the `body` for consistent element sizing.  
-- Default browser margins and paddings were reset for the `body` to create a clean slate for layout styling.  
-- Button and input elements received appearance fixes to ensure a uniform look across different browsers, including standardizing the `appearance` property and removing inconsistent text transformations.  
-- Font inheritance was refined for form controls like `button`, `input`, `optgroup`, `select`, and `textarea` to ensure typography consistency.  
-- Hyperlink styling was improved by removing the default gray background on active links in older versions of Internet Explorer.  
-- Typography adjustments included standardizing the `line-height` of the `html` element and refining the font size and spacing of `h1` headings.  
-- Form elements such as text areas, checkboxes, and radio buttons were corrected with `overflow` and `box-sizing` fixes to enhance usability.  
-- Interactive elements like `details` and `summary` were adjusted to display properly across browsers.  
-- Additional improvements included defining `template` and `[hidden]` elements to ensure consistent behavior across different environments.
+#Here are the key changes:
+
+- **Global Adjustments:**  
+  - Applied `box-sizing: border-box;` to all elements for consistent sizing.  
+  - Ensured `html` and `body` take up `100%` height to provide a stable layout.  
+
+- **Typography Improvements:**  
+  - Standardized `line-height: 1.5` for better readability.  
+  - Applied `-webkit-text-size-adjust: 100%` to prevent unwanted font size adjustments in iOS.  
+  - Adjusted `h1` to have `font-size: 2em` and a `0.67em` margin for consistency.  
+  - Set `small` to `80%` of the base font size.  
+  - Ensured `code, kbd, samp` use a monospaced font.  
+
+- **Lists & Structural Elements:**  
+  - Removed default margins and paddings from `ul` and `ol` for consistency.  
+  - Made `main` a `block` element for proper rendering in older browsers.  
+  - Adjusted `hr` to have `box-sizing: content-box` and controlled overflow.  
+
+- **Text-Level Semantics:**  
+  - Removed background styling from `a` elements to prevent unwanted effects.  
+  - Ensured `abbr[title]` has a consistent underline style.  
+  - Set `b` and `strong` to `font-weight: bolder`.  
+  - Adjusted `sub` and `sup` positions and sizes for proper alignment.  
+
+- **Images & Media:**  
+  - Ensured `img` elements do not have borders and scale properly with `max-width: 100%` and `height: auto`.  
+
+- **Form Elements:**  
+  - Unified `button, input, select, textarea` styles by inheriting font properties.  
+  - Prevented `button, input` from cropping overflowed text.  
+  - Removed default `border-style` from `button` focus elements for consistency.  
+  - Set custom `outline` styling for focused `button` elements.  
+  - Improved `legend` display and padding for better alignment.  
+  - Ensured `progress` aligns properly with text.  
+  - Adjusted `textarea` for better scrolling behavior.  
+  - Standardized `checkbox` and `radio` button sizing.  
+  - Removed default appearance of `search` input decorations.  
+
+- **Interactive Elements & Tables:**  
+  - Made `details` a `block` element and `summary` a `list-item`.  
+  - Standardized `table` styles with `border-collapse: collapse` and removed spacing.  
+  - Set `template` elements to `display: none`.  
+  - Ensured `[hidden]` elements are properly hidden.  
+
+These changes improve cross-browser consistency, enhance accessibility, and create a solid foundation for styling. Let me know if you'd like additional modifications!
