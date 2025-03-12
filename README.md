@@ -1,5 +1,5 @@
 # Here are the key changes:
-
+ 
 - **Global Adjustments:**  
   - Applied `box-sizing: border-box;` to all elements for consistent sizing.  
   - Ensured `html` and `body` take up `100%` height to provide a stable layout.  
